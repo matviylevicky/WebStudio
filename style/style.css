@@ -1,3 +1,48 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.header-nav {
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav-list {
+    display: flex;
+    gap: 50px;
+    
+}
+.header-logo {
+    padding-right: 219px;
+    padding-left: 215px;
+}
+.header-nav-list {
+    padding-right: 218px;
+}
+.header-nav-list-link {
+    color: black;
+    
+}
+.header-nav-list-link:hover {
+    color:#2196F3;
+}
+.header-nav-button {
+    display: flex;
+    padding-right: 215px;
+    gap: 50px;
+}
+.header-nav-button-number {
+    width: 122px;
+    border: none;
+    color: #757575;
+}
+.header-nav-button-email {
+    border: none;
+}
+.header-nav-button-link {
+    color: black;
+}
+.header-nav-button-link:hover {
+    color: #2196F3;
+}
