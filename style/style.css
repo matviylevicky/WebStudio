@@ -67,3 +67,42 @@ body {
     border-radius: 4px;
     margin-top: 40px;
 }
+.main-section-subtitle {
+    display: flex;
+    margin: 94px 0;
+    gap: 30px;
+    justify-content: center;
+}
+.main-section-subtitle-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+}
+.main-section-subtitle-paragraf {
+    width: 270px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+}
+.wrapper {
+    flex-direction: column;
+}
+.main-section-WhatDoWeDo {
+    display: flex;
+}
+.main-section-WhatDoWeDo-title {
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    height: 42px;
+}
+.main-section-WhatDoWeDo-img {
+    margin-top:90px ;
+
+}
+.main-section-WhatDoWeDo-img-wrapper {
+    justify-content: center;
+    gap: 30px;
+}
