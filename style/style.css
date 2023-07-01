@@ -80,29 +80,26 @@ body {
 }
 .main-section-subtitle-paragraf {
     width: 270px;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     color: #757575;
 }
-.wrapper {
-    flex-direction: column;
-}
 .main-section-WhatDoWeDo {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main-section-WhatDoWeDo-title {
-    display: flex;
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    height: 42px;
 }
 .main-section-WhatDoWeDo-img {
     margin-top:90px ;
 
 }
-.main-section-WhatDoWeDo-img-wrapper {
+.main-WhatDoWeDo-container{
     justify-content: center;
+    display: flex;
     gap: 30px;
 }
