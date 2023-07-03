@@ -143,3 +143,30 @@ body {
     margin-bottom: 30px;
     margin-top: 10px;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #2F303A;
+}
+.footer-logo {
+    margin-left: 215px;
+    margin-top:60px ;
+}
+.footer-title {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 215px;
+}
+.footer-paragraf {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400; 
+    margin-top: 20px;
+    margin-left: 215px;
+}
+.number {
+    margin-bottom: 60px;
+}
+
