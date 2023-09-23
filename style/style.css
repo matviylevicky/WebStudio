@@ -84,6 +84,14 @@ body {
     font-size: 14px;
     color: #757575;
 }
+
+.icon-svg {
+    margin: 0 auto;
+    fill: black;
+}
+.icon-svg:hover {
+    fill: #2196F3;
+}
 .main-section-WhatDoWeDo {
     display: flex;
     flex-direction: column;
