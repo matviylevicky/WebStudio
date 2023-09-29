@@ -86,12 +86,24 @@ body {
 }
 
 .icon-svg {
-    margin: 0 auto;
+    width: 70px;
+    height: 70px;
     fill: black;
+
 }
 .icon-svg:hover {
     fill: #2196F3;
 }
+.main-card-logo {
+    border-radius: 4px;
+    background: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    margin-bottom: 30px;
+
+} 
 .main-section-WhatDoWeDo {
     display: flex;
     flex-direction: column;
