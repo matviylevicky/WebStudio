@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/modal.css">
 </head>
 <body>
     <header class="header">
@@ -23,8 +24,33 @@
                <a href="#" class="header-nav-list-link"><li>Контакти</li></a> 
             </ul>
             <div class="header-nav-button">
-                <button class="header-nav-button-email"><a href="#" class="header-nav-button-link"> info@devstudio.com</a></button>
-                <button class="header-nav-button-number"> <a href="#" class="header-nav-button-link">+38 096 111 11 11</a></button>
+                <button class="nav-button-email" data-modal-open>info@devstudio.com</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="button-close" data-modal-close></button>
+                        <form action="#">
+                            <label for="name" class="form-lable">Ім'я</label>
+                            <input type="text" name="user_name" id="name" />
+
+                            <label for="phone" class="form-lable">Номер телефону</label>
+                            <input type="tel" name="user_phone" id="phone" />
+
+                            <label for="email" class="form-lable">Пошта</label>
+                            <input type="email" name="user_email" id="email"/>
+
+                            <label for="coment" class="form-lable">Коментар</label>
+                            <textarea name="coment" id="coment" placeholder="Введіть текст"></textarea>
+
+                            <input type="checkbox" name="user_chec" required/>
+                            <label class="form-lable">
+                              Я перевіривінформацію</label
+                            >
+                            <button type="submit">Надіслати</button>
+
+                        </form>
+                    </div>
+                </div>
+                <a href="#" class="header-nav-button-link">+38 096 111 11 11</a>
             </div>
         </nav>
         <section class="header-main">
@@ -119,5 +145,6 @@
          <p class="footer-paragraf">info@devstudio.com</p>
          <p class="footer-paragraf number">+38 096 111 11 11</p>
     </footer>
+    <script src="/js/modal.js"></script>
 </body>
 </html>

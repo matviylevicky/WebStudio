@@ -29,8 +29,13 @@ body {
     border: none;
     color: #757575;
 }
-.header-nav-button-email {
+.nav-button-email {
     border: none;
+    font-size: 14px;
+    
+}
+.nav-button-email:hover {
+    color: #2196F3;
 }
 .header-nav-button-link {
     color: black;
